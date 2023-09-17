@@ -9,7 +9,15 @@
 
 body {
   background: #081b29;
-  color: #ededed;
+}
+
+section {
+  padding: 0 10%;
+}
+
+hr{
+  margin: 0 20%;
+  opacity: 0.2;
 }
 
 .header {
@@ -23,6 +31,8 @@ body {
   justify-content: space-between;
   align-items: center;
   z-index: 100;
+  background: #081b29;
+  color: #ededed;
 }
 
 .logo {
@@ -48,10 +58,12 @@ body {
 }
 
 .home {
-  height: 100vh;
+  padding-top: 15vh;
+  height: 95vh;
   display: flex;
   align-items: center;
-  padding: 0 10%;
+  color: #ededed;
+
 }
 
 .home-content {
@@ -134,3 +146,240 @@ body {
 .btn-box a:hover:before {
   width: 100%;
 }
+
+.about {
+  text-align: center;
+  padding-top: 5vh;
+  height: 70vh;
+  color: #ededed;
+
+}
+
+.about-content {
+  margin-top: 3vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+}
+
+h2 {
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.about h3 {
+  font-size: 32px;
+  font-weight: 700;
+  color: #00abf0;
+  margin-bottom: 30px;
+}
+
+.about-paragraph {
+  width: 50%;
+}
+
+.profile {
+  height: 35vh;
+  margin: 15px 20px;
+  border: #00abf0 1px solid;
+  border-radius: 20px;
+  transition: 0.3s;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.profile p {
+  font-size: 18px;
+  padding: 15px 15px;
+}
+
+.profile:hover {
+  background-color: #00abf0;
+  color: #ededed;
+  transform: scale(1.05);
+  transition: 0.3s;
+}
+
+.about h3 {
+  font-size: 24px;
+  font-weight: 700;
+  margin: 15px 20px;
+  border-radius: 20px;
+  transition: 0.3s;
+}
+
+.about h3:hover {
+  background-color: #00abf0;
+  color: #ededed;
+  transform: scale(1.05);
+  transition: 0.3s;
+}
+
+.education {
+  width: 50%;
+  padding: 0 0px 20px;
+}
+
+.education-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 15px 20px;
+  height: 35vh;
+}
+
+.education-item {
+  flex-grow: 1;
+  background-color: #ededed;
+  color: #081b29;
+  border-radius: 20px;
+  padding: 20px;
+  text-align: start;
+  transition: 0.3s;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 5px;
+}
+
+.education-item:hover {
+  background-color: #00abf0;
+  color: #ededed;
+  transform: scale(1.05);
+  transition: 0.3s;
+}
+
+.education-item .course-title {
+  font-size: 17px;
+  font-weight: 700;
+  width: 100%;
+}
+
+.education-item .course-institute {
+  font-size: 16px;
+  font-weight: 500;
+  width: 100%;
+}
+
+.education-item .course-period {
+  font-size: 14px;
+  font-style: italic;
+}
+
+.skills {
+  align-items: center;
+  padding-top: 30px;
+  height: 80vh;
+  color: #ededed;
+
+}
+
+.skills-content {
+  text-align: center;
+}
+
+.skills-sections {
+  margin-top: 25px;
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+  align-items: stretch;
+}
+
+.skills-section {
+  flex: 1;
+  border-radius: 20px;
+  transition: 0.3s;
+}
+
+.skill-title {
+  flex: 1;
+  background-color: #ededed;
+  color: #081b29;
+  min-height: 80px;
+  border-radius: 20px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  vertical-align: middle;
+  transition: 0.3s;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+.skill-title:hover {
+  background-color: #00abf0;
+  color: #ededed;
+  transform: scale(1.05);
+  transition: 0.3s;
+}
+
+.skill-item {
+  margin: 10px;
+  padding: 10px 20px;
+  border: #00abf0 1px solid;
+  background-color: transparent;
+  color: #00abf0;
+  border-radius: 20px;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.skill-item:hover {
+  background-color: #00abf0;
+  color: #ededed;
+  transform: scale(1.05);
+  transition: 0.3s;
+}
+
+.contact {
+  align-items: center;
+  padding-top: 30px;
+  padding-bottom: 20vh;
+  color: #ededed;
+
+}
+
+.contact-content {
+  text-align: center;
+}
+
+.contact-sections {
+  margin-top: 25px;
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+  align-items: stretch;
+}
+
+.contact-section {
+  flex: 1;
+  border-radius: 20px;
+  border: #00abf0 1px solid;
+  padding: 40px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  transition: 0.3s;
+}
+
+.contact-section h2 {
+  margin-bottom: 25px;
+}
+
+.contact-section:hover {
+  background-color: #00abf0;
+  color: #ededed;
+  transform: scale(1.05);
+  transition: 0.3s;
+}
+
+.footer {
+  padding: 40px 10%;
+  text-align: center;
+  color: #ededed;
+
+}
+
