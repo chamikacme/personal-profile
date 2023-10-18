@@ -15,7 +15,7 @@ section {
   padding: 0 10%;
 }
 
-hr{
+hr {
   margin: 0 20%;
   opacity: 0.2;
 }
@@ -63,7 +63,6 @@ hr{
   display: flex;
   align-items: center;
   color: #ededed;
-
 }
 
 .home-content {
@@ -152,7 +151,6 @@ hr{
   padding-top: 5vh;
   height: 70vh;
   color: #ededed;
-
 }
 
 .about-content {
@@ -272,7 +270,6 @@ h2 {
   padding-top: 30px;
   height: 80vh;
   color: #ededed;
-
 }
 
 .skills-content {
@@ -339,7 +336,6 @@ h2 {
   padding-top: 30px;
   padding-bottom: 20vh;
   color: #ededed;
-
 }
 
 .contact-content {
@@ -380,6 +376,4 @@ h2 {
   padding: 40px 10%;
   text-align: center;
   color: #ededed;
-
 }
-
